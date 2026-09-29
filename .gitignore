@@ -1,0 +1,41 @@
+# Data — no subir al repo (descargar según README)
+data/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Resultados y figuras generadas (se reproducen con los scripts)
+results/
+figures/
+logs/
+
+# Manuscrito, docs y material de sometimiento
+manuscript/
+docs/
+
+# Configs locales
+configs/
+
+# Scripts internos no parte del pipeline público
+scripts/01_audit_sources.py
+scripts/02b_probe_l2arctic.py
+scripts/_fix_refs.py
+scripts/14_clean_prose.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints de embeddings (archivos grandes)
+*.npy

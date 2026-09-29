@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+scipy
+# EDA / plotting
+matplotlib
+seaborn
+# Audio
+librosa
+soundfile
+# ML
+scikit-learn
+# Data loading (Hugging Face)
+datasets
+huggingface_hub
+# Deep learning (RQ1 — fase de modelado)
+torch
+transformers
